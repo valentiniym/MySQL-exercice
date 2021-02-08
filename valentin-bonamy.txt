@@ -1,0 +1,8 @@
+#1 SELECT LCASE (titre) as "Titres films",genre_id FROM film WHERE genre_id IN (1,2,3) AND titre LIKE '%E'
+#2 SELECT titre as "titre_film", duree_min as "duree_film", resum as "resumee_film" FROM film
+#3 SELECT LCASE (titre) as "titres_min" FROM film  WHERE id BETWEEN 43 AND 83
+#4 SELECT UCASE (titre) as "titre", date_fin_affiche FROM film ORDER BY date_fin_affiche DESC
+#5 SELECT SHA1 (titre) as "Titres_SHA1", MD5 (titre) as "Titres_MD5" FROM film
+#6 SELECT COUNT(titre) FROM film WHERE titre LIKE 'B%'
+#7 SELECT(titre) FROM film WHERE genre_id IN (2) AND (titre) LIKE "%the%
+#8 SELECT titre, date_debut_affiche, distrib_id FROM film
